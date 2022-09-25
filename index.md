@@ -1,1 +1,29 @@
-Hi!
+# Week 0 Lab
+## *Testing Basic Markdown Syntax*
+
+
+> Three basic font types
+
+1) **BOLD**
+2) *Italic*
+3) Regular
+
+***
+
+> Using Images
+
+![Image](https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/1b655a63df187fd.png)
+
+* use `<img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/1b655a63df187fd.png" width="100">` to resize image
+
+---
+
+> Using Links
+
+[Link](https://www.google.com)
+
+* Link used:
+
+```
+[Link](https://www.google.com)
+```
