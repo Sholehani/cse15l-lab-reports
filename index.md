@@ -20,10 +20,10 @@
 
 > Using Links
 
-[Link](https://www.google.com)
+[Google](https://www.google.com)
 
 * Link used:
 
 ```
-[Link](https://www.google.com)
+[Google](https://www.google.com)
 ```
