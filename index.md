@@ -1,29 +1,4 @@
-# Week 0 Lab
-## *Testing Basic Markdown Syntax*
 
+# CSE Lab Reports
 
-> Three basic font types
-
-1) **BOLD**
-2) *Italic*
-3) Regular
-
-***
-
-> Using Images
-
-![Image](https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/1b655a63df187fd.png)
-
-* use `<img src="https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/1b655a63df187fd.png" width="100">` to resize image
-
----
-
-> Using Links
-
-[Google](https://www.google.com)
-
-* Link used:
-
-```
-[Google](https://www.google.com)
-```
+* [Lab Report 1](https://github.com/Sholehani/cse15l-lab-reports/blob/main/lab-report-1-week-0.md)
