@@ -51,7 +51,7 @@ Logout of the remote computer in order to use this command.
 > **Note:** logout using the `exit` command or using Ctrl-D
 
 Use VS Code to create a file named `WhereAmI.java` and write the Lab given code.
-Compile and run usins `javac` and `java`. 
+Compile and run using `javac` and `java`. 
 
 The output should be:
 
