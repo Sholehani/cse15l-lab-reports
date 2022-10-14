@@ -64,10 +64,15 @@ class SearchEngine {
 ScreenShots:
 
 * query example:
+
 ![search-query.png](Images/Week2/search-query.png)
+
 * adding example:
+
 ![add-ex](Images/Week2/add-ex.png)
+
 * returning list:
+
 ![return-list](Images/Week2/return-list.png)
 
 
@@ -97,15 +102,19 @@ File 1: `ArrayExamples.java`
 * `testReverseInPlace`:
     
     error-inducing input:
-        ![ReverseInPlace-input.png](Images/Week3/ReverseInPlace-input.png)
+    
+    ![ReverseInPlace-input.png](Images/Week3/ReverseInPlace-input.png)
 
     symptom:
-        ![ReverseInPlace-fail.png](Images/Week3/ReverseInPlace-fail.png)
+    
+    ![ReverseInPlace-fail.png](Images/Week3/ReverseInPlace-fail.png)
 
     the bug:
-        ![ArrayEx-bug.png](Images/Week3/ArrayEx-bug.png)
+    
+    ![ArrayEx-bug.png](Images/Week3/ArrayEx-bug.png)
 
     The symptom occured due to the bug accessing both index and replacing them with the same element, rather than swapping. The `for` loop itterates through the entire array, inevitably changing the last half of the array to mirror the first half with its attempts at swapping.
+
 
 * `testReversed`:
     
@@ -114,22 +123,29 @@ File 1: `ArrayExamples.java`
     ![Reversed-input.png](Images/Week3/Reversed-input.png)
 
     symptom:
-        ![Reversed-fail.png](Images/Week3/Reversed-fail.png)
-    (
+
+    ![Reversed-fail.png](Images/Week3/Reversed-fail.png)
+
     the bug:
-        ![Reversed-bug.png](Images/Week3/Reversed-bug.png)
+
+    ![Reversed-bug.png](Images/Week3/Reversed-bug.png)
     
     The symptom was due to the bug line of code where the new array's default elements were set equal to the original array. This can be fixed by simply swapping the array's location in the code, so the the new array is updated instead of the original one. This input produced an error because the inital array was not empty and had only zero's as elements. This case would've been the only way for the test to return true.
 
+
 * `testAverageWithoutLowest`:
+
     error-inducing input:
-        ![Avg-noLow-input.png](Images/Week3/Avg-noLow-input.png)
+    
+    ![Avg-noLow-input.png](Images/Week3/Avg-noLow-input.png)
 
     symptom:
-        ![Avg-noLow-fail.png](Images/Week3/Avg-noLow-fail.png)
+    
+    ![Avg-noLow-fail.png](Images/Week3/Avg-noLow-fail.png)
     
     the bug:
-        ![Avg-noLow-bug.png](Images/Week3/Avg-noLow-bug.png)
+    
+    ![Avg-noLow-bug.png](Images/Week3/Avg-noLow-bug.png)
     
     The bug caused the all repeats of the lowest number to be removed from the sum, when only one should be removed. This cuased the average to be incorrect as the elements used were different.
 
@@ -139,14 +155,17 @@ File 1: `ListExamples.java`
 * `filter`:
     
     error-inducing input:
-        ![Filter-input.png](Images/Week3/Filter-input.png)
+    
+    ![Filter-input.png](Images/Week3/Filter-input.png)
     
 
     symptom:
-        ![Filter-fail.png](Images/Week3/Filter-fail.png)
+    
+    ![Filter-fail.png](Images/Week3/Filter-fail.png)
     
     the bug:
-        ![Filter-bug.png](Images/Week3/Filter-bug.png)
+        
+    ![Filter-bug.png](Images/Week3/Filter-bug.png)
     
     The symptom happened because if StringCheck only returned true, the order of the StringArray would be backwards due to the `.add` method adding the element to the front of the ArrayList instead of the back. removing the adding index to zero should fix the bug.
 
@@ -154,13 +173,16 @@ File 1: `ListExamples.java`
 * `merge`:
 
     error-inducing input:
-        ![Merge-input.png](Images/Week3/Merge-input.png)
+
+    ![Merge-input.png](Images/Week3/Merge-input.png)
 
     symptom:
-        ![Merge-fail.png](Images/Week3/Merge-fail.png)
+    
+    ![Merge-fail.png](Images/Week3/Merge-fail.png)
     
     the bug:
-        ![Merge-bug.png](Images/Week3/Merge-bug.png)
+    
+    ![Merge-bug.png](Images/Week3/Merge-bug.png)
     
     index2 is never incremented when merging the remaining elements at the end of the method, therefore the element in the second list where index2 is stuck on never stops adding onto the merged array list, hence the memory error.
 
