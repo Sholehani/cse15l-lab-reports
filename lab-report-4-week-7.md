@@ -53,7 +53,7 @@ The file's changes are saved through the `w` command and is exited with the `q` 
 
 Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
 
-> I would perfer using Vim simply because it is already in built into the remote and savese time `scp` files.
+> I would perfer using Vim simply because it is already in built into the remote and saves time `scp` files.
 
 
 What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
