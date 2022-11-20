@@ -167,7 +167,8 @@ exit
 
 ```
 java -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > test-results.txt
-
+```
+```
 if grep -q "Failure" test-results.txt; then
     echo -e "Some test failed. Review following test output to fix error(s):\n"
     cat test-results.txt
