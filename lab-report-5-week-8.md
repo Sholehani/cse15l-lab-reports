@@ -155,14 +155,13 @@ cat compile-error.txt
 ```
 echo -e "\nScore: Fail\n"
 ```
-* No Standard Error. Standard Output : 
+* No Standard error. Standard Output : 
 > Score: Fail
 * Exit Code: 0
 ```
 exit
 ```
-* No Standard Error. Standard Output : 
-> Score: Fail
+* No standard error and standard Output.
 * Exit Code: 0
 
 ```
