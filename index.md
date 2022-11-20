@@ -10,3 +10,5 @@
 * [Week 5 - Lab Report 3](https://Sholehani.github.io/cse15l-lab-reports/lab-report-3-week-5.html)
 
 * [Week 7 - Lab Report 4](https://Sholehani.github.io/cse15l-lab-reports/lab-report-4-week-7.html)
+
+* [Week 8 - Lab Report 5](https://Sholehani.github.io/cse15l-lab-reports/lab-report-5-week-8.html)
