@@ -164,6 +164,7 @@ exit
 * No Standard Error. Standard Output : 
 > Score: Fail
 * Exit Code: 0
+
 ```
 java -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > test-results.txt
 
