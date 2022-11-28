@@ -75,7 +75,11 @@ rm -rf student-submission
 ```
 git clone $1 student-submission
 ```
-* No stadard output and error. Exit code: 0
+* No stadard output. Standard Error output: 
+> ```
+> Cloning into 'student-submission'...
+> ```
+* Exit code: 0
 ```
 if [[ ! -f student-submission/ListExamples.java ]]
 ```
