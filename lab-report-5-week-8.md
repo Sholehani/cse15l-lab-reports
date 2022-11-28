@@ -71,11 +71,11 @@ Example: https://github.com/ucsd-cse15l-f22/list-methods-compile-error
 ```
 rm -rf student-submission
 ```
-* No stadard output and error. Exit code: 0
+* No standard output and error. Exit code: 0
 ```
 git clone $1 student-submission
 ```
-* No stadard output. Standard Error output: 
+* No standard output. Standard Error output: 
 > ```
 > Cloning into 'student-submission'...
 > ```
@@ -96,19 +96,19 @@ else
     exit
 fi
 ```
-* Lines above do not run do to the last `if` statement being false
+* Lines above do not run do to the previous `if` statement being false
 ```
 cp TestListExamples.java student-submission
 ```
-* No stadard output and error. Exit code: 0
+* No standard output and error. Exit code: 0
 ```
 cd student-submission/
 ```
-* No stadard output and error. Exit code: 0
+* No standard output and error. Exit code: 0
 ```
 javac -cp .:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar *.java 2> compile-error.txt
 ```
-* No stadard output. Standard Error output: 
+* No standard output. Standard Error output: 
 > ```
 > ListExamples.java:15: error: ';' expected
 >    result.add(0, s)
@@ -123,7 +123,7 @@ if [[ $? -ne 0 ]]
 ```
 echo -e "Compile error in ListExamples.java."
 ```
-* No Standard Error. Standard Output : 
+* No standard error. Standard Output : 
 > Compile error in ListExamples.java.
 * Exit Code: 0
 ```
@@ -142,13 +142,13 @@ if grep -q "merge" compile-error.txt; then
 ```   
 echo -e "\nError Message:\n"
 ```
-* No Standard Error. Standard Output : 
+* No standard error. Standard Output : 
 > Error Message:
 * Exit Code: 0
 ```
 cat compile-error.txt
 ```
-* No Standard Error. Standard Output : 
+* No standard error. Standard Output : 
 > ```
 > ListExamples.java:15: error: ';' expected
 >    result.add(0, s)
@@ -159,13 +159,13 @@ cat compile-error.txt
 ```
 echo -e "\nScore: Fail\n"
 ```
-* No Standard error. Standard Output : 
+* No standard error. Standard Output : 
 > Score: Fail
 * Exit Code: 0
 ```
 exit
 ```
-* No standard error and standard Output.
+* No standard error and standard output.
 * Exit Code: 0
 
 ```
